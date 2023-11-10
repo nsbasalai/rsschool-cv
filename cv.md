@@ -8,8 +8,6 @@
 - Adaptive layout
 - JavaScript
 - Git
-- React/Redux
-- some practice with Backend code with node.js
 ### About me
 Motivated to work and learn.
 Looking for a full-time job.
