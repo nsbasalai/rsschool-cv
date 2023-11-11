@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Anastasia Basalai</h1>
+        <h2>junior/trainee frontend developer</h2>
+        <hr />
+        <ul>
+            Skills
+            <li>HTML</li>
+            <li>CSS (+SASS)</li>
+            <li>BEM methodology</li>
+            <li>Adaptive layout</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+        </ul>
+        <h3>About me</h3>
+        <p>
+            Motivated to work and learn. Looking for a full-time job. Ready to work
+            from home.
+        </p>
+        <ul>
+            Languages
+            <li>Russian (Native)</li>
+            <li>English (B2)</li>
+        </ul>
+        <ul>
+            Education
+            <li>
+                Belarusian State University Faculty of Journalism / Web-journalism
+                2017 - 2019 (Incomplete higher education)
+            </li>
+            <li>
+                Belarusian State University of Culture and Arts Faculty of Culture and
+                Socio-Cultural Activities / Advertising and public relations
+                management 2019 - 2023
+            </li>
+        </ul>
+        <h3>Code example</h3>
+        <pre>
+    <code>
+        function moveZeros(arr) {
+            let count = [];
+            let newArr = arr.filter(elem => {
+                let elemZero = elem === 0;
+                if (elemZero) {
+                    count.push(0);
+                }
+                return !elemZero;
+            })
+        
+            newArr.push(...count);
+            return newArr;
+        }
+        moveZeros([1,2,0,1,0,1,0,3,0,1]);
+    </code>
+    </pre>
+        <ul>
+            Contacts
+            <li>+375(33) 376 34 38</li>
+            <li>nsbasalai@gmail.com</li>
+            <li>Discord: notnst</li>
+        </ul>
+    </div>
+</body>
+
+</html>
